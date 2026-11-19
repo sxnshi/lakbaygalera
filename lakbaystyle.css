@@ -4,7 +4,7 @@ body {
 }
 @font-face {
   font-family: "NewTitle";
-  src: url("lakbaygalera/assets/images/") format("woff2");
+  src: url("lakbaygalera/assets/images/NewTitle-Bold.woff2") format("woff2");
   font-weight: 700;
 }
 .main {
