@@ -15,10 +15,7 @@
 - **"Merge":** Combine your branch into `main` after a groupmate checks it.
 - **"Merge conflict":** Two people edited the same lines of the same file. Avoid this by only editing your own files.
 - **"Ahead / Behind":** Ahead means your branch has commits `main` doesn't. Behind means `main` has commits your branch doesn't. If you're behind, click **Update branch**.
-- **"Collaborator":** A teammate invited to edit our repo.
-- **"Initial commit":** The first commit in our repo, made when we created it.
-- **"README":** The file that describes our project on the repo's front page.
-
+  
 ## Our Team Rules
 
 1. Never edit `main` directly. Always work on your own branch.
