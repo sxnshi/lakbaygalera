@@ -1,10 +1,14 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;700&display=swap" rel="stylesheet">
+
 body {
   margin: 0;
   background-color: #f2f2f2; margin: 0;
 }
 @font-face {
   font-family: "NewTitle";
-  src: url("assets/fonts/NewTitle-Bold.woff2") format("woff2");
+  src: url("assets/fonts/NewTitle-Regular.woff2") format("woff2");
   font-weight: 700;
 }
 .main {
