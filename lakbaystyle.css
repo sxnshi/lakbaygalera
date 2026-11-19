@@ -4,7 +4,7 @@ body {
 }
 @font-face {
   font-family: "NewTitle";
-  src: url("assets/images/NewTitle-Bold.woff2") format("woff2");
+  src: url("assets/fonts/NewTitle-Bold.woff2") format("woff2");
   font-weight: 700;
 }
 .main {
