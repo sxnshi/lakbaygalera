@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  background-color: #ffffff; margin: 0;
+}
+@font-face {
+  font-family: "NewTitle";
+  src: url("NewTitle-Variable.woff2") format("woff2");
+  font-weight: 700;
+}
+.about {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  height: 650px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 20px;
+  height: 50px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.icon {
+margin-top: 15px;
+  margin-left: 20px;
+}
+
+.menu {
+margin-left: auto;
+  display: flex;
+  gap: 40px;
+  margin-right: 40px;
+  margin-top: 0px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #3f3f3f;
+    font-family: Outfit;
+    font-weight: Regular;
+}
+
+.fact-row {
+  display: flex;
+  border: 2px solid #e3e3e3;
+  background-color: white;
+margin: 20px 40px 50px 40px;
+padding: 10px;
+border-radius: 10px;
+}
+
+.fact {
+  flex: 1;
+  padding: 30px;
+  border-right: 1px solid #e3e3e3;
+}
+
+.fact:last-child {
+  border-right: none;
+}
+
+.fact span {
+  font-family: Outfit;
+  font-size: 14px;
+  font-weight: 700;
+  color: #beb196;
+}
+
+.about .fact h3 {
+ font-family: "Outfit";
+  font-weight: 400;
+  text-align: left;
+  font-size: 30px;
+  margin: 10px 10px 10px 0px;
+  line-height: 1;
+}
+.summary{
+  background: linear-gradient(to right, #05343d, #318d92);
+}
+.summary h2{
+font-family: "Outfit";
+font-weight: Regular;
+text-align: left;
+font-size: 100px;
+color: rgb(255, 255, 255);
+line-height: 0.77;
+letter-spacing: -1px;
+margin: 20px 50px 20px 50px;
+}
+
+.summary h3{
+font-family: "Outfit";
+font-weight: 400;
+text-align: left;
+font-size: 30px;
+color: #ffffff;
+line-height: 0.77;
+letter-spacing: -1px;
+margin: 50px 20px 5px 53px;
+}
+
+.summary p{
+  color: #e3e3e3;
+  font-family: Outfit;
+  font-weight: 100;
+  font-size: 20px;
+  text-align: left;
+  margin: 10px 55px 55px 55px;
+}
+
+footer {
+font-family: Outfit;
+font-weight: regular;
+background-color: #05343d;
+color: #318d92;
+text-align: center; 
+height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
